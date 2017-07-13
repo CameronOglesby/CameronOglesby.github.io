@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "FLAT ROCK"
-baseurl = "https://github.com/CameronOglesby/flatrockbeats"
+baseurl = ""
 theme = "aerial"
 publishDir = "docs"
 
