@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "FLAT ROCK"
-baseurl = ""
+baseurl = "www.flatrockbeats.com"
 theme = "aerial"
 publishDir = "docs"
 
