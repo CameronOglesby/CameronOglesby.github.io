@@ -7,7 +7,7 @@ publishDir = "docs"
 [params]
   name = "FLAT ROCK"
   about = "producer &nbsp;&bull;&nbsp; detroit &nbsp;&bull;&nbsp; cameron oglesby"
-  copyright = "Untitled"
+  copyright = "flatrockbeats2017"
   #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
   bg_scroll = ""
   favicon = "favicon.ico"
@@ -15,14 +15,14 @@ publishDir = "docs"
 [[params.social]]
   medium = "Twitter"
   icon = "twitter"
-  link = "#"
+  link = "https://twitter.com/CamOglesby"
 
 [[params.social]]
-  medium = "Facebook"
-  icon = "facebook"
+  medium = "SoundCloud"
+  icon = "https://soundcloud.com/camoglesby"
   link = "#"
 
 [[params.social]]
   medium = "Email"
   icon = "envelope-o"
-  link = "#"
+  link = "oglesbycam@gmail.com"
