@@ -16,7 +16,7 @@ theme = "hugo-elate-theme"
   [params.navigation]
     brand = "FLAT ROCK BEATS"
     home = "Home"
-    beats = "Beats"
+    work = "Beats"
     services = "Services"
     about = "About"
     contact = "Contact"
@@ -46,28 +46,28 @@ theme = "hugo-elate-theme"
   [params.intro]
 
   [[params.intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Get In Touch"
+    title = "browse"
+    description = "listen to all my projects on soundcloud."
+    url = "https://soundcloud.com/flatrockbeats"
+    button = "launch to soundcloud"
+    icon = "icon-social-soundcloud"
+    img = "img_7.jpg"
+
+  [[params.intro.item]]
+    title = "contact"
+    description = "reach out me if you are interested in purchasing a beat, or creating a custom beat."
+    url = "[params.contact]"
+    button = "get in touch"
     icon = "icon-bulb"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "purchase"
+    description = "once your beat is produced, all project files will be directly emailed to you on a secure link and all copyright will be yours."
     url = "#"
-    button = "Click Me"
-    icon = "icon-wrench"
-    img = "img_8.jpg"
-
-  [[params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Why us?"
-    icon = "icon-rocket"
-    img = "img_10.jpg"
+    button = "purchase a project"
+    icon = "icon-credit-card"
+    img = "img_7.jpg"
 
   [params.intro.video]
     enable = true
@@ -77,7 +77,7 @@ theme = "hugo-elate-theme"
 
 
   # Beats section
-  [params.beats]
+  [params.work]
     enable = true
     title = "beats"
     description = "all my beats are produced from either fl studio or ableton live."
@@ -148,56 +148,32 @@ theme = "hugo-elate-theme"
   # About section
   [params.about]
     enable = true
-    title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "about"
+    description = "a self-taught producer from the detroit area. "
 
     [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      name = "cameron oglesby"
+      position = "flat rock"
+      description = "idk what to put here yet"
       img = "person1.jpg"
       alt = "Person1"
       social = [
-        ["icon-twitter", "#"],
+        ["icon-twitter", "https://twitter.com/CamOglesby"],
         ["icon-facebook", "#"],
         ["icon-linkedin", "#"]
       ]
 
-    [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
-      alt = "Person2"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
-      ]
-
-    [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
-      alt = "Person3"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
-      ]      
-
   # Counters section
   [params.counters]
     enable = true
-    title = "Stats"
+    title = "stats"
     background = "full_image_1.jpg"
 
     [[params.counters.item]]
-      description = "Finished projects"
+      description = "finished projects"
       icon = "icon-briefcase"
       from = 0
-      to = 89
+      to = 12
       interval = 50
       speed = 5000
 
@@ -218,10 +194,10 @@ theme = "hugo-elate-theme"
       speed = 5000
 
     [[params.counters.item]]
-      description = "Happy clients"
+      description = "happy clients"
       icon = "icon-people"
       from = 0
-      to = 52
+      to = 8
       interval = 50
       speed = 5000
 
