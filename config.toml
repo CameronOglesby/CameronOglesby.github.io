@@ -12,6 +12,7 @@ theme = "hugo-elate-theme"
   author = "cameron oglesby"
   description = "producer from detroit"
   email = "oglesbycam@gmail.com"
+
   # Navigation
   [params.navigation]
     brand = "FLAT ROCK BEATS"
@@ -48,15 +49,15 @@ theme = "hugo-elate-theme"
   [[params.intro.item]]
     title = "browse"
     description = "listen to all my projects on soundcloud."
-    url = "https://soundcloud.com/flatrockbeats"
-    button = "launch to soundcloud"
+    url = "https://soundcloud.com/flatrockbeats/tracks"
+    button = "soundcloud"
     icon = "icon-social-soundcloud"
     img = "img_7.jpg"
 
   [[params.intro.item]]
     title = "contact"
-    description = "reach out me if you are interested in purchasing a beat, or creating a custom beat."
-    url = "[params.contact]"
+    description = "reach out me if you are interested in purchasing a beat or creating a custom beat."
+    url = "#contact"
     button = "get in touch"
     icon = "icon-bulb"
     img = "img_7.jpg"
@@ -64,8 +65,8 @@ theme = "hugo-elate-theme"
   [[params.intro.item]]
     title = "purchase"
     description = "once your beat is produced, all project files will be directly emailed to you on a secure link and all copyright will be yours."
-    url = "#"
-    button = "purchase a project"
+    url = "#contact"
+    button = "buy a beat"
     icon = "icon-credit-card"
     img = "img_7.jpg"
 
@@ -81,86 +82,52 @@ theme = "hugo-elate-theme"
     enable = true
     title = "beats"
     description = "all my beats are produced from either fl studio or ableton live."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    footertext = ''
 
     [[params.work.row]]
-      img = "work_1.jpg"
+      img = "TIGER WOODS.jpg"
       alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+      title = "Tiger Woods"
+      subtitle = "first beat"
 
     [[params.work.row]]
-      img = "work_2.jpg"
+      img = "The Alpha EP.png"
       alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
-
+      title = "The Alpha EP"
+      subtitle = "first ep project"
 
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "services"
+    description = "a guarantee for customer satisfaction"
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Name &amp; Strategy"
+      description = "flat rock beats will provide the upmost quality and speed when contacting you as a customer."
       icon = "icon-anchor"
 
-    [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
-    [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
-
       [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
-      icon = "icon-monitor"
+      title = "Producing &amp; Quality"
+      description = "as a self-taught producer, flat rock beats will ensure that an extensive amount of time and care will be provided for each beat published or custom beats you are interested in."      
+      icon = "icon-earphones"
 
   # About section
   [params.about]
     enable = true
     title = "about"
-    description = "a self-taught producer from the detroit area. "
+    description = "a self-taught producer from the detroit area."
 
     [[params.about.item]]
-      name = "cameron oglesby"
-      position = "flat rock"
-      description = "idk what to put here yet"
-      img = "person1.jpg"
+      name = "flat rock"
+      position = "cameron oglesby"
+      description = "my peanut butter chocolate cake with kool-aid"
+      img = "profilepic.jpeg"
       alt = "Person1"
       social = [
         ["icon-twitter", "https://twitter.com/CamOglesby"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        ["icon-social-instagram", "https://www.instagram.com/cam.oglesby"],
+        ["icon-social-soundcloud", "https://soundcloud.com/flatrockbeats"]
       ]
 
   # Counters section
@@ -173,28 +140,28 @@ theme = "hugo-elate-theme"
       description = "finished projects"
       icon = "icon-briefcase"
       from = 0
-      to = 12
+      to = 14
       interval = 50
       speed = 5000
 
     [[params.counters.item]]
-      description = "Lines of code"
-      icon = "icon-code"
+      description = "hours spent in the studio"
+      icon = "icon-clock"
       from = 0
-      to = 2343409
+      to = 182
       interval = 50
       speed = 5000
 
     [[params.counters.item]]
-      description = "Cups of coffee"
-      icon = "icon-cup"
+      description = "dollars spent on professional equipment"
+      icon = "icon-wallet"
       from = 0
-      to = 1302
+      to = 3249
       interval = 50
       speed = 5000
 
     [[params.counters.item]]
-      description = "happy clients"
+      description = "satisfied customers"
       icon = "icon-people"
       from = 0
       to = 8
@@ -223,5 +190,5 @@ theme = "hugo-elate-theme"
 
   # Footer section
   [params.footer]
-    enable = false
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    enable = true
+    copyright = '2017 &copy; Flat Rock Beats. All Rights Reserved.'
