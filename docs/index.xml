@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>FLAT ROCK</title>
-    <link>www.flatrockbeats.com/</link>
-    <description>Recent content on FLAT ROCK</description>
+    <title>FLAT ROCK BEATS</title>
+    <link>http://flatrockbeats.com/</link>
+    <description>Recent content on FLAT ROCK BEATS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>flatrockbeats2017</copyright>
-    <lastBuildDate>Thu, 13 Jul 2017 11:20:41 -0400</lastBuildDate>
     
-	<atom:link href="www.flatrockbeats.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://flatrockbeats.com/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>First Post</title>
-      <link>www.flatrockbeats.com/post/first-post/</link>
-      <pubDate>Thu, 13 Jul 2017 11:20:41 -0400</pubDate>
-      
-      <guid>www.flatrockbeats.com/post/first-post/</guid>
-      <description>#Flat Rock
-Producer from Detroit, MI</description>
-    </item>
     
   </channel>
 </rss>
