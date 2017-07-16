@@ -57,7 +57,7 @@ theme = "hugo-elate-theme"
   [[params.intro.item]]
     title = "contact"
     description = "reach out me if you are interested in purchasing a beat or creating a custom beat."
-    url = "#contact"
+    url = "#fh5co-contact"
     button = "get in touch"
     icon = "icon-bulb"
     img = "img_7.jpg"
@@ -65,7 +65,7 @@ theme = "hugo-elate-theme"
   [[params.intro.item]]
     title = "purchase"
     description = "once your beat is produced, all project files will be directly emailed to you on a secure link and all copyright will be yours."
-    url = "#contact"
+    url = "#fh5co-contact"
     button = "buy a beat"
     icon = "icon-credit-card"
     img = "img_7.jpg"
@@ -172,7 +172,7 @@ theme = "hugo-elate-theme"
   [params.contact]
     enable = true
     map = false
-    title = "bussiness inquiries"
+    title = "business inquiries"
     description = "contact me if you are interested in a beat"
     
     # Available icons: http://simplelineicons.com/
@@ -182,11 +182,11 @@ theme = "hugo-elate-theme"
         ["icon-envelope", "oglesbycam@gmail.com"],
       ]
 
-    name = "Name"
-    email = "Email"
-    phone = "Phone"
-    message = "Message"
-    button = "Send message"
+    name = "name"
+    email = "email"
+    phone = "phone"
+    message = "message"
+    button = "send message"
 
   # Footer section
   [params.footer]
